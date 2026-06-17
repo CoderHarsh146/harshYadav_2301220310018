@@ -5,3 +5,20 @@ if(d%5==0)cout<<step;
 else cout<<step+1;
 
 ....................................................
+
+// (to solve a problem of game)
+#include <stdio.h>
+int main() {
+    int n;
+    
+    printf("Enter a number: ");
+    scanf("%d", &n); 
+    if (n % 3 == 0) {
+        printf("B wins\n");
+    } else {
+        printf("A wins\n");
+    } 
+    return 0;
+}
+
+.....................................................
