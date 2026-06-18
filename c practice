@@ -22,3 +22,13 @@ int main() {
 }
 
 .....................................................
+
+
+// To find the largest element in the array
+
+int largest = a[o];
+for(int i=0 ; i<size , i++){
+  if(a[i]>largest){
+    largest = a[i];
+  }
+}
